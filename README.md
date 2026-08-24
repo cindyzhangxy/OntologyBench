@@ -7,7 +7,7 @@
 
 **Can dense retrieval satisfy structured biomedical constraints?**
 
-OntologyBench is a tiered benchmark for evaluating whether text retrievers recover ontology-grounded biomedical knowledge across Tier 1 **Concept Grounding**, Tier 2 **Relational Retrieval**, and Tier 3 **Compositional Retrieval**. The release follows the lightweight evaluator-and-results pattern popularized by [MTEB](https://github.com/embeddings-benchmark/mteb): tasks ship with a small Python API and CLI, while paper aggregates remain inspectable data files.
+OntologyBench is a tiered benchmark for evaluating whether text retrievers recover ontology-grounded biomedical knowledge across Tier 1 **Concept Grounding**, Tier 2 **Relational Retrieval**, and Tier 3 **Compositional Retrieval**. The tasks ship with a small Python API and CLI, while paper aggregates remain inspectable data files.
 
 > **Paper:** [OntologyBench: Can Dense Retrieval Satisfy Structured Biomedical Constraints?](paper/OntologyBench.pdf)  
 > Xiao Yu Cindy Zhang, Wyeth W. Wasserman, and Jian Zhu (2026)
