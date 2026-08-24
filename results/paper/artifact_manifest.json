@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "source_workspace": "OntologyBench archival workspace",
+  "source_workspace_policy": "Source paths are relative identifiers; raw artifacts are not distributed in this Git repository.",
+  "recorded_campaign_commit": "b8f38238276b49564f5e312c2ffe8415b0751378",
+  "recorded_campaign_dirty": true,
+  "artifacts": [
+    {
+      "source_path": "deprecated/camera_ready_cleanup_2026-07-27/results_corrected_standard_ndcg/openai_gpt5_4_mini_candidate_scoring.json",
+      "sha256": "4bdfb30faab0a92e19321fad7594a098931661a413d38b792deda974d34c3e10",
+      "bytes": 1861,
+      "status": "verified_scores_prompt_provenance_unresolved"
+    },
+    {
+      "source_path": "generative_reranking/openai_gpt5.4_mini/scoring_gpt5.4_mini.jsonl",
+      "sha256": "d43b5f41430e3e3d3ff70dc3adca2ac84fec761ec113ee12893dfb5ac264da9b",
+      "bytes": 71610325,
+      "status": "raw_scores_not_distributed_prompt_provenance_unresolved"
+    },
+    {
+      "source_path": "results/llm_candidate_resubmit_20260729T232857Z/models/gemma4_31b.json",
+      "sha256": "1ce029d458f38edfb9c77c8cc6d9d9045d92a18be2ceac48fe2fb206b5891ad0",
+      "bytes": 7559446,
+      "status": "verified_saved_artifact_dirty_run"
+    },
+    {
+      "source_path": "results/llm_candidate_resubmit_20260729T232857Z/models/qwen36_27b.json",
+      "sha256": "9bb00702a57969feaa0997e5e54ccda984d78c7bb901e4cfc13da989d06d9827",
+      "bytes": 7559432,
+      "status": "verified_saved_artifact_dirty_run"
+    },
+    {
+      "source_path": "results/llm_candidate_resubmit_20260729T232857Z/models/qwen3_4b_instruct.json",
+      "sha256": "d93cd087200510cfbbd8eb428623a7617d7a30d07288779ef88a3d5b9f391962",
+      "bytes": 7559391,
+      "status": "reported_no_matching_saved_artifact"
+    },
+    {
+      "source_path": "results/ndcg_rerun_20260729T011459Z/models/biolord_base.json",
+      "sha256": "b78d2bc2fff19212520676201f706eee794edeb067f608d5bc7b3d968836e4ba",
+      "bytes": 99694140,
+      "status": "verified_saved_artifact_dirty_run"
+    },
+    {
+      "source_path": "results/ndcg_rerun_20260729T011459Z/models/biolord_t1a.json",
+      "sha256": "efb3474e789e4ef90790459df521d93551722e0ff5ceb4f132488212871ac6ea",
+      "bytes": 99690787,
+      "status": "verified_saved_artifact_dirty_run"
+    },
+    {
+      "source_path": "results/ndcg_rerun_20260729T011459Z/models/biolord_unified.json",
+      "sha256": "2b5dc0062f6ee3890c64764612545e6e7209bf879a161f17a38cd6bd076f1e93",
+      "bytes": 99686847,
+      "status": "verified_saved_artifact_dirty_run"
+    },
+    {
+      "source_path": "results/ndcg_rerun_20260729T011459Z/models/bm25.json",
+      "sha256": "a1849c731d542cbe3fbb79afaec6c51b0bae4270fffbbc76c8ca92038651d64c",
+      "bytes": 99600128,
+      "status": "verified_saved_artifact_dirty_run"
+    },
+    {
+      "source_path": "results/ndcg_rerun_20260729T011459Z/models/graph_traversal.json",
+      "sha256": "fb054216da772f2e9346a29bada4a5834ee1f86d5b2d7ca441b677b0a4be5be6",
+      "bytes": 870284,
+      "status": "verified_saved_artifact_dirty_run"
+    },
+    {
+      "source_path": "results/ndcg_rerun_20260729T011459Z/models/medembed.json",
+      "sha256": "21762bc6c710231881d23c29bdddc33ae7d3389a9a3f9952e79d985fed090c93",
+      "bytes": 99685434,
+      "status": "verified_saved_artifact_dirty_run"
+    },
+    {
+      "source_path": "results/ndcg_rerun_20260729T011459Z/models/minilm_l6_v2.json",
+      "sha256": "6b8be3c2c7d7efa847e1af84f25cfd475756f5eabf78559c2a295cab5e071f29",
+      "bytes": 99703141,
+      "status": "verified_saved_artifact_dirty_run"
+    },
+    {
+      "source_path": "results/ndcg_rerun_20260729T011459Z/models/modern_colbert_base.json",
+      "sha256": "b428f6779a0786a7c6aab51eeaf6008148cd8e0e4071a57515efd326c16b1812",
+      "bytes": 7559372,
+      "status": "verified_saved_artifact_dirty_run"
+    },
+    {
+      "source_path": "results/ndcg_rerun_20260729T011459Z/models/modern_colbert_t1a.json",
+      "sha256": "4dc29176b422232095a6fd53b0169de1766b44af4a87a563a129e88695670ff4",
+      "bytes": 7559425,
+      "status": "reported_rounding_mismatch"
+    },
+    {
+      "source_path": "results/ndcg_rerun_20260729T011459Z/models/modern_colbert_unified.json",
+      "sha256": "b329abe5440076bd049d67081feae12fce20c44e0398854a298f69d6298f6c8e",
+      "bytes": 7559411,
+      "status": "verified_saved_artifact_dirty_run"
+    },
+    {
+      "source_path": "results/ndcg_rerun_20260729T011459Z/models/qwen3_06b.json",
+      "sha256": "34384e53ab49d3f2b819415b1de51ac2babb58609743a6823f2a9ad1290cbcee",
+      "bytes": 99680694,
+      "status": "verified_saved_artifact_dirty_run"
+    },
+    {
+      "source_path": "results/ndcg_rerun_20260729T011459Z/models/qwen3_06b_t1a.json",
+      "sha256": "3cd56029914315c9d3512b61290b210fd19326a8dcfcc50e903d927f4d83a26a",
+      "bytes": 99683199,
+      "status": "verified_saved_artifact_dirty_run"
+    },
+    {
+      "source_path": "results/ndcg_rerun_20260729T011459Z/models/qwen3_06b_unified.json",
+      "sha256": "cfc208074d4d3301f366e4729477604d4fd811eab09f46900f6897e0d1f34137",
+      "bytes": 99682912,
+      "status": "verified_saved_artifact_dirty_run"
+    },
+    {
+      "source_path": "results/ndcg_rerun_20260729T011459Z/models/qwen3_4b.json",
+      "sha256": "54e6abdd87149fdcb9a18f163f65bc86399ddb82a576615ba1a2ab62d61d2390",
+      "bytes": 99663654,
+      "status": "verified_saved_artifact_dirty_run"
+    },
+    {
+      "source_path": "results/ndcg_rerun_20260729T011459Z/models/qwen3_4b_thinking.json",
+      "sha256": "fbe0405b5e01733ae143e9b86b023ed9fdd2a1513a901affd98dacca97f8e748",
+      "bytes": 7559375,
+      "status": "reported_invalid_output"
+    },
+    {
+      "source_path": "results/ndcg_rerun_20260729T011459Z/models/resnik.json",
+      "sha256": "3f55fc8f584d91b7707d3a1bc642612bdf6969367ae864a2d308a3bee74fae14",
+      "bytes": 38689469,
+      "status": "verified_saved_artifact_dirty_run"
+    },
+    {
+      "source_path": "results/ndcg_rerun_20260729T011459Z/models/sapbert.json",
+      "sha256": "43de3762ad75b0b18002acdda865a8dbc0036d07de58a09dbf097508ccc1e161",
+      "bytes": 99720024,
+      "status": "verified_saved_artifact_dirty_run"
+    },
+    {
+      "source_path": "results/openai_text_embedding_3_large_cached_reconstruction/metrics.csv",
+      "sha256": "3a124270d00a3c6cf2badd0828ab1eb6f1f22be8a05411bc1baa85eed5b771fc",
+      "bytes": 7717,
+      "status": "verified_reconstruction_unversioned_workspace"
+    }
+  ]
+}

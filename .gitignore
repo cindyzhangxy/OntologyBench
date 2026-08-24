@@ -1,0 +1,46 @@
+# Python and test/build outputs
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.venv/
+venv/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Credentials, experiment tracking, and logs
+.env
+.env.*
+!.env.example
+*.log
+wandb/
+
+# Reconstructable or private working data
+/data/
+/src/data/
+/src/ontologybench/data/raw/
+/src/ontologybench/data/intermediate/
+/src/ontologybench/data/output/
+/src/ontologybench/data/splits/
+
+# Large experiment products: only compact paper summaries are released
+/results/*
+!/results/paper/
+!/results/paper/**
+*.ckpt
+*.safetensors
+*.pt
+*.pth
+
+# Local planning and scratch space
+/docs/ 
+/tmp/
+/hf_dataset/

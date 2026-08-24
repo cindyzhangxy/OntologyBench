@@ -1,0 +1,2 @@
+include README.md LICENSE CITATION.cff DATA_LICENSE.md PROVENANCE.md
+recursive-include src/ontologybench/data/tasks_global *.jsonl SHA256SUMS

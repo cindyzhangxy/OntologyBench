@@ -1,0 +1,79 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ontologybench"
+version = "1.0.0"
+description = "A tiered benchmark for structured biomedical knowledge retrieval"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+    { name = "Xiao Yu Cindy Zhang" },
+    { name = "Wyeth W. Wasserman" },
+    { name = "Jian Zhu" },
+]
+keywords = [
+    "biomedical retrieval",
+    "ontology",
+    "embeddings",
+    "benchmark",
+    "information retrieval",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.24",
+    "rank-bm25>=0.2.2",
+]
+
+[project.optional-dependencies]
+test = ["setuptools>=69"]
+huggingface = ["datasets>=3.0", "huggingface_hub>=0.27"]
+construction = ["pandas>=2.0", "python-Levenshtein>=0.21"]
+dense = ["sentence-transformers>=3.0"]
+openai = ["openai>=1.0"]
+rerank = ["pylate"]
+tracking = ["wandb>=0.17"]
+all = [
+    "pandas>=2.0",
+    "python-Levenshtein>=0.21",
+    "sentence-transformers>=3.0",
+    "openai>=1.0",
+    "pylate",
+    "wandb>=0.17",
+    "datasets>=3.0",
+    "huggingface_hub>=0.27",
+]
+
+[project.scripts]
+ontologybench-evaluate = "ontologybench.evaluation.evaluate:main"
+ontologybench-validate = "ontologybench.validate_outputs:main"
+ontologybench-verify = "ontologybench.verify_data:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["ontologybench", "ontologybench.*"]
+exclude = [
+    "ontologybench.data.tasks",
+    "ontologybench.data.tasks.*",
+    "ontologybench.figures",
+    "ontologybench.figures.*",
+    "ontologybench.results",
+    "ontologybench.results.*",
+]
+
+[tool.setuptools.package-data]
+ontologybench = ["data/tasks_global/*/*.jsonl", "data/tasks_global/SHA256SUMS"]

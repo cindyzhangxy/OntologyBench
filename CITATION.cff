@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+title: OntologyBench
+message: "If you use OntologyBench, please cite the associated paper."
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Xiao Yu Cindy
+  - family-names: Wasserman
+    given-names: Wyeth W.
+  - family-names: Zhu
+    given-names: Jian
+version: "1.0.0"
+date-released: "2026-08-23"
+license: MIT
+abstract: "A tiered benchmark for structured biomedical knowledge retrieval."
+keywords:
+  - biomedical retrieval
+  - ontology
+  - embeddings
+  - benchmark
+
+preferred-citation:
+  type: conference-paper
+  title: "OntologyBench: Can Dense Retrieval Satisfy Structured Biomedical Constraints?"
+  authors:
+    - family-names: Zhang
+      given-names: Xiao Yu Cindy
+    - family-names: Wasserman
+      given-names: Wyeth W.
+    - family-names: Zhu
+      given-names: Jian
+  collection-title: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing"
+  collection-type: proceedings
+  conference:
+    name: "The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)"
+    location: "Budapest, Hungary"
+  publisher:
+    name: "Association for Computational Linguistics"
+  year: 2026
+  status: in-press
