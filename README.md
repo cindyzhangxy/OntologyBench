@@ -1,5 +1,10 @@
 # OntologyBench
 
+[![CI](https://github.com/cindyzhangxy/OntologyBench/actions/workflows/ci.yml/badge.svg)](https://github.com/cindyzhangxy/OntologyBench/actions/workflows/ci.yml)
+[![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![EMNLP 2026](https://img.shields.io/badge/EMNLP-2026-red.svg)](paper/OntologyBench.pdf)
+
 **Can dense retrieval satisfy structured biomedical constraints?**
 
 OntologyBench is a tiered benchmark for evaluating whether text retrievers recover ontology-grounded biomedical knowledge across Tier 1 **Concept Grounding**, Tier 2 **Relational Retrieval**, and Tier 3 **Compositional Retrieval**. The release follows the lightweight evaluator-and-results pattern popularized by [MTEB](https://github.com/embeddings-benchmark/mteb): tasks ship with a small Python API and CLI, while paper aggregates remain inspectable data files.
