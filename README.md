@@ -30,7 +30,7 @@ Checkpoints and trainer states are not distributed. Raw rankings, generation tra
 ## Install
 
 ```bash
-cd EMNLP_ontologybench
+cd OntologyBench
 python -m pip install -e .
 ```
 
