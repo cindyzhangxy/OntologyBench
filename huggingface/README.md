@@ -66,9 +66,14 @@ The released task data are available under CC BY 4.0. Upstream biomedical resour
 ## Citation
 
 ```bibtex
-@article{zhang2026ontologybench,
-  title   = {OntologyBench: Can Dense Retrieval Satisfy Structured Biomedical Constraints?},
-  author  = {Zhang, Xiao Yu Cindy and Wasserman, Wyeth W. and Zhu, Jian},
-  year    = {2026}
+@inproceedings{zhang2026ontologybench,
+  title     = {{OntologyBench}: Can Dense Retrieval Satisfy Structured Biomedical Constraints?},
+  author    = {Zhang, Xiao Yu Cindy and Wasserman, Wyeth W. and Zhu, Jian},
+  booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+  month     = oct,
+  year      = {2026},
+  address   = {Budapest, Hungary},
+  publisher = {Association for Computational Linguistics},
+  note      = {To appear}
 }
 ```
