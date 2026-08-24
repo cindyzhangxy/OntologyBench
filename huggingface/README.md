@@ -48,7 +48,7 @@ The generated release includes `summary.json`, deterministic target assignments 
 ```python
 from datasets import load_dataset
 
-dataset = load_dataset("YOUR_ORG/OntologyBench")
+dataset = load_dataset("cxyzhang/OntologyBench")
 print(dataset)
 print(dataset["train"].features)
 ```
