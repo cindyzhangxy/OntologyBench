@@ -25,8 +25,6 @@ The main-text tier names above are canonical release metadata. The paper's overv
 - The canonical Appendix F candidate-scoring prompt and a resumable OpenAI runner.
 - Archival data-construction scripts for transparency.
 
-Checkpoints and trainer states are not distributed. Raw rankings, generation traces, private/HPC launchers, and mutable experiment state are also intentionally excluded; they are not required to evaluate a model on the released split.
-
 ## Install
 
 ```bash
@@ -161,7 +159,7 @@ HfApi().upload_folder(
 )
 ```
 
-No Hugging Face credentials are stored by OntologyBench. Install the optional client and loader with `python -m pip install -e ".[huggingface]"`.
+Install the optional client and loader with `python -m pip install -e ".[huggingface]"`.
 
 ## Integrity and reproducibility
 
